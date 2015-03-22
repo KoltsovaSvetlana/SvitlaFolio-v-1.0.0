@@ -1,0 +1,135 @@
+﻿.titlePage {
+  margin: 30px 0px;
+  padding: 1px 0px;
+  border-top: 1px dotted #c2c2c4;
+  border-bottom: 1px dotted #c2c2c4;
+}
+
+.titlePage h2 {
+  padding: 12px 0px;
+  font-size: 18px;
+  border-top: 1px dotted #c2c2c4;
+  border-bottom: 1px dotted #c2c2c4;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+.content {
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    padding-bottom: 50px;
+  }
+}
+
+.next, .prev, .next:hover, .prev:hover, .next:visited, .prev:visited, p a, p a:hover, p a:visited {
+  color: #ff7e00;
+}
+
+.next {
+  float: right;
+}
+
+img {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.wrapSlider {
+  overflow: hidden;
+  margin: auto;
+}
+
+.slider {
+  width: 500%;
+  position: relative;
+  left: 0px;
+}
+
+.slider li {
+  float: left;
+  list-style: none;
+}
+
+@media only screen and (min-width: 300px) {
+  .wrapSlider, .slider li {
+    width: 290px;
+    height: 1395px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .wrapSlider, .slider li {
+    width: 400px;
+    height: 1550px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .wrapSlider, .slider li {
+    width: 500px;
+    height: 1720px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapSlider, .slider li {
+    width: 600px;
+    height: 1940px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapSlider, .slider li {
+    width: 720px;
+    height: 2150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .wrapSlider, .slider li {
+    width: 940px;
+    height: 1478px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .wrapSlider, .slider li {
+    width: 1140px;
+    height: 1777px;
+  }
+}
+
+.nameSite {
+  padding: 0.5em 0px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #444444;
+  border-top: none;
+  border-bottom: 1px dotted #c2c2c4;
+}
+
+@media only screen and (max-width: 768px) {
+  .nameSite {
+    font-size: 45px;
+  }
+}
+
+p {
+  padding: 0.7em 0;
+  color: #9d9b9b;
+}
+@media only screen and (max-width: 992px) {
+  p {
+    font-size: 22px;
+  }
+}
+
+p span {
+  color: #444444;
+}

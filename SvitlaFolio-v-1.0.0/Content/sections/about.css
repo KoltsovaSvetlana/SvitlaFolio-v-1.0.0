@@ -1,0 +1,132 @@
+.titlePage {
+  margin: 30px 0px;
+  padding: 1px 0px;
+  border-top: 1px dotted #c2c2c4;
+  border-bottom: 1px dotted #c2c2c4;
+}
+
+.titlePage h2 {
+  padding: 12px 0px;
+  font-size: 18px;
+  border-top: 1px dotted #c2c2c4;
+  border-bottom: 1px dotted #c2c2c4;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+.content {
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    padding-bottom: 50px;
+  }
+}
+
+h1 {
+  margin: 45px 0px 15px 0px;
+  text-align: center;
+  font-size: 35px;
+  color: #444444;
+}
+
+h2.subtitle {
+  text-align: center;
+  font-size: 20px;
+  color: #444444;
+  line-height: 1.2em;
+}
+
+.employeeInfo, .technologyInfo {
+  padding: 0px 35px;
+  text-align: center;
+}
+
+.employeeInfo img {
+  width: 75%;
+  max-width: 365px;
+  -moz-border-radius: 50% / 50%;
+  -webkit-border-radius: 50% 50%;
+  border-radius: 50% / 50%;
+  margin: 50px 0px 1.3em 0px;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.employeeInfo img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -moz-box-shadow: 0px 0px 10px #ff7e00;
+  -webkit-box-shadow: 0px 0px 10px #ff7e00;
+  box-shadow: 0px 0px 10px #ff7e00;
+}
+
+@media screen and (min-width: 992px) {
+  .employeeInfo img {
+    width: 200px;
+  }
+}
+
+.employeeInfo h2 {
+  text-align: center;
+  font-size: 1.3em;
+  color: #444444;
+}
+
+.employeeInfo h3 {
+  margin: 0px 35px 1em;
+  padding: 0.65em 0em 1em 0em;
+  text-align: center;
+  font-size: 1em;
+  color: #9d9b9b;
+  border-top: none;
+  border-bottom: 1px dotted #c2c2c4;
+}
+
+.divider {
+  clear: both;
+  margin: 0px 15px;
+  padding-top: 50px;
+  border-top: none;
+  border-bottom: 1px dotted #c2c2c4;
+}
+
+.technologyInfo img {
+  width: 140px;
+  margin: 50px 0px 0px 0px;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.technologyInfo img:hover {
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .technologyInfo img {
+    width: 70px;
+  }
+  
+  .technologyInfo img:hover {
+    width: 80px;
+  }
+}
+
+.technologyInfo h2 {
+  text-align: center;
+  font-size: 1.3em;
+  color: #444444;
+  padding: 1.15em;
+}

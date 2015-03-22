@@ -1,0 +1,510 @@
+/* line 5, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, ../scss/vendor/_globals.scss */
+body {
+  background: url("../img/bg_content.png");
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #444444;
+}
+@media screen and (max-width: 992px) {
+  /* line 10, ../scss/vendor/_globals.scss */
+  body {
+    font-size: 25px;
+  }
+}
+
+/* line 4, ../scss/partials/_typography.scss */
+.pe-bg {
+  overflow: hidden;
+}
+/* line 8, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-hover.pe-so-behance {
+  text-shadow: none;
+}
+/* line 9, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-so-behance, .pe-bg.pe-longshadow.pe-hover.pe-so-behance:hover {
+  text-shadow: 0px 0px 0 black,1px 1px 0 black,2px 2px 0 black,3px 3px 0 black,4px 4px 0 black,5px 5px 0 black,6px 6px 0 black,7px 7px 0 black,8px 8px 0 black,9px 9px 0 black,10px 10px 0 black,11px 11px 0 black,12px 12px 0 black,13px 13px 0 black,14px 14px 0 black,15px 15px 0 black,16px 16px 0 black,17px 17px 0 black,18px 18px 0 black,19px 19px 0 black,20px 20px 0 black,21px 21px 0 black,22px 22px 0 black,23px 23px 0 black,24px 24px 0 black,25px 25px 0 black,26px 26px 0 black,27px 27px 0 black,28px 28px 0 black,1px 1px 0 rgba(0, 0, 0, 0.96667),2px 2px 0 rgba(0, 0, 0, 0.93333),3px 3px 0 rgba(0, 0, 0, 0.9),4px 4px 0 rgba(0, 0, 0, 0.86667),5px 5px 0 rgba(0, 0, 0, 0.83333),6px 6px 0 rgba(0, 0, 0, 0.8),7px 7px 0 rgba(0, 0, 0, 0.76667),8px 8px 0 rgba(0, 0, 0, 0.73333),9px 9px 0 rgba(0, 0, 0, 0.7),10px 10px 0 rgba(0, 0, 0, 0.66667),11px 11px 0 rgba(0, 0, 0, 0.63333),12px 12px 0 rgba(0, 0, 0, 0.6),13px 13px 0 rgba(0, 0, 0, 0.56667),14px 14px 0 rgba(0, 0, 0, 0.53333),15px 15px 0 rgba(0, 0, 0, 0.5),16px 16px 0 rgba(0, 0, 0, 0.46667),17px 17px 0 rgba(0, 0, 0, 0.43333),18px 18px 0 rgba(0, 0, 0, 0.4),19px 19px 0 rgba(0, 0, 0, 0.36667),20px 20px 0 rgba(0, 0, 0, 0.33333),21px 21px 0 rgba(0, 0, 0, 0.3),22px 22px 0 rgba(0, 0, 0, 0.26667),23px 23px 0 rgba(0, 0, 0, 0.23333),24px 24px 0 rgba(0, 0, 0, 0.2),25px 25px 0 rgba(0, 0, 0, 0.16667),26px 26px 0 rgba(0, 0, 0, 0.13333),27px 27px 0 rgba(0, 0, 0, 0.1),28px 28px 0 rgba(0, 0, 0, 0.06667),30px 30px 0 transparent;
+}
+/* line 8, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-hover.pe-so-dribbble {
+  text-shadow: none;
+}
+/* line 9, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-so-dribbble, .pe-bg.pe-longshadow.pe-hover.pe-so-dribbble:hover {
+  text-shadow: 0px 0px 0 #e2206a,1px 1px 0 #e2206a,2px 2px 0 #e2206a,3px 3px 0 #e2206a,4px 4px 0 #e2206a,5px 5px 0 #e2206a,6px 6px 0 #e2206a,7px 7px 0 #e2206a,8px 8px 0 #e2206a,9px 9px 0 #e2206a,10px 10px 0 #e2206a,11px 11px 0 #e2206a,12px 12px 0 #e2206a,13px 13px 0 #e2206a,14px 14px 0 #e2206a,15px 15px 0 #e2206a,16px 16px 0 #e2206a,17px 17px 0 #e2206a,18px 18px 0 #e2206a,19px 19px 0 #e2206a,20px 20px 0 #e2206a,21px 21px 0 #e2206a,22px 22px 0 #e2206a,23px 23px 0 #e2206a,24px 24px 0 #e2206a,25px 25px 0 #e2206a,26px 26px 0 #e2206a,27px 27px 0 #e2206a,28px 28px 0 #e2206a,1px 1px 0 rgba(226, 32, 106, 0.96667),2px 2px 0 rgba(226, 32, 106, 0.93333),3px 3px 0 rgba(226, 32, 106, 0.9),4px 4px 0 rgba(226, 32, 106, 0.86667),5px 5px 0 rgba(226, 32, 106, 0.83333),6px 6px 0 rgba(226, 32, 106, 0.8),7px 7px 0 rgba(226, 32, 106, 0.76667),8px 8px 0 rgba(226, 32, 106, 0.73333),9px 9px 0 rgba(226, 32, 106, 0.7),10px 10px 0 rgba(226, 32, 106, 0.66667),11px 11px 0 rgba(226, 32, 106, 0.63333),12px 12px 0 rgba(226, 32, 106, 0.6),13px 13px 0 rgba(226, 32, 106, 0.56667),14px 14px 0 rgba(226, 32, 106, 0.53333),15px 15px 0 rgba(226, 32, 106, 0.5),16px 16px 0 rgba(226, 32, 106, 0.46667),17px 17px 0 rgba(226, 32, 106, 0.43333),18px 18px 0 rgba(226, 32, 106, 0.4),19px 19px 0 rgba(226, 32, 106, 0.36667),20px 20px 0 rgba(226, 32, 106, 0.33333),21px 21px 0 rgba(226, 32, 106, 0.3),22px 22px 0 rgba(226, 32, 106, 0.26667),23px 23px 0 rgba(226, 32, 106, 0.23333),24px 24px 0 rgba(226, 32, 106, 0.2),25px 25px 0 rgba(226, 32, 106, 0.16667),26px 26px 0 rgba(226, 32, 106, 0.13333),27px 27px 0 rgba(226, 32, 106, 0.1),28px 28px 0 rgba(226, 32, 106, 0.06667),30px 30px 0 rgba(226, 32, 106, 0);
+}
+/* line 8, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-hover.pe-so-facebook {
+  text-shadow: none;
+}
+/* line 9, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-so-facebook, .pe-bg.pe-longshadow.pe-hover.pe-so-facebook:hover {
+  text-shadow: 0px 0px 0 #2f4574,1px 1px 0 #2f4574,2px 2px 0 #2f4574,3px 3px 0 #2f4574,4px 4px 0 #2f4574,5px 5px 0 #2f4574,6px 6px 0 #2f4574,7px 7px 0 #2f4574,8px 8px 0 #2f4574,9px 9px 0 #2f4574,10px 10px 0 #2f4574,11px 11px 0 #2f4574,12px 12px 0 #2f4574,13px 13px 0 #2f4574,14px 14px 0 #2f4574,15px 15px 0 #2f4574,16px 16px 0 #2f4574,17px 17px 0 #2f4574,18px 18px 0 #2f4574,19px 19px 0 #2f4574,20px 20px 0 #2f4574,21px 21px 0 #2f4574,22px 22px 0 #2f4574,23px 23px 0 #2f4574,24px 24px 0 #2f4574,25px 25px 0 #2f4574,26px 26px 0 #2f4574,27px 27px 0 #2f4574,28px 28px 0 #2f4574,1px 1px 0 rgba(47, 69, 116, 0.96667),2px 2px 0 rgba(47, 69, 116, 0.93333),3px 3px 0 rgba(47, 69, 116, 0.9),4px 4px 0 rgba(47, 69, 116, 0.86667),5px 5px 0 rgba(47, 69, 116, 0.83333),6px 6px 0 rgba(47, 69, 116, 0.8),7px 7px 0 rgba(47, 69, 116, 0.76667),8px 8px 0 rgba(47, 69, 116, 0.73333),9px 9px 0 rgba(47, 69, 116, 0.7),10px 10px 0 rgba(47, 69, 116, 0.66667),11px 11px 0 rgba(47, 69, 116, 0.63333),12px 12px 0 rgba(47, 69, 116, 0.6),13px 13px 0 rgba(47, 69, 116, 0.56667),14px 14px 0 rgba(47, 69, 116, 0.53333),15px 15px 0 rgba(47, 69, 116, 0.5),16px 16px 0 rgba(47, 69, 116, 0.46667),17px 17px 0 rgba(47, 69, 116, 0.43333),18px 18px 0 rgba(47, 69, 116, 0.4),19px 19px 0 rgba(47, 69, 116, 0.36667),20px 20px 0 rgba(47, 69, 116, 0.33333),21px 21px 0 rgba(47, 69, 116, 0.3),22px 22px 0 rgba(47, 69, 116, 0.26667),23px 23px 0 rgba(47, 69, 116, 0.23333),24px 24px 0 rgba(47, 69, 116, 0.2),25px 25px 0 rgba(47, 69, 116, 0.16667),26px 26px 0 rgba(47, 69, 116, 0.13333),27px 27px 0 rgba(47, 69, 116, 0.1),28px 28px 0 rgba(47, 69, 116, 0.06667),30px 30px 0 rgba(47, 69, 116, 0);
+}
+/* line 8, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-hover.pe-so-google-plus {
+  text-shadow: none;
+}
+/* line 9, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-so-google-plus, .pe-bg.pe-longshadow.pe-hover.pe-so-google-plus:hover {
+  text-shadow: 0px 0px 0 #b33020,1px 1px 0 #b33020,2px 2px 0 #b33020,3px 3px 0 #b33020,4px 4px 0 #b33020,5px 5px 0 #b33020,6px 6px 0 #b33020,7px 7px 0 #b33020,8px 8px 0 #b33020,9px 9px 0 #b33020,10px 10px 0 #b33020,11px 11px 0 #b33020,12px 12px 0 #b33020,13px 13px 0 #b33020,14px 14px 0 #b33020,15px 15px 0 #b33020,16px 16px 0 #b33020,17px 17px 0 #b33020,18px 18px 0 #b33020,19px 19px 0 #b33020,20px 20px 0 #b33020,21px 21px 0 #b33020,22px 22px 0 #b33020,23px 23px 0 #b33020,24px 24px 0 #b33020,25px 25px 0 #b33020,26px 26px 0 #b33020,27px 27px 0 #b33020,28px 28px 0 #b33020,1px 1px 0 rgba(179, 48, 32, 0.96667),2px 2px 0 rgba(179, 48, 32, 0.93333),3px 3px 0 rgba(179, 48, 32, 0.9),4px 4px 0 rgba(179, 48, 32, 0.86667),5px 5px 0 rgba(179, 48, 32, 0.83333),6px 6px 0 rgba(179, 48, 32, 0.8),7px 7px 0 rgba(179, 48, 32, 0.76667),8px 8px 0 rgba(179, 48, 32, 0.73333),9px 9px 0 rgba(179, 48, 32, 0.7),10px 10px 0 rgba(179, 48, 32, 0.66667),11px 11px 0 rgba(179, 48, 32, 0.63333),12px 12px 0 rgba(179, 48, 32, 0.6),13px 13px 0 rgba(179, 48, 32, 0.56667),14px 14px 0 rgba(179, 48, 32, 0.53333),15px 15px 0 rgba(179, 48, 32, 0.5),16px 16px 0 rgba(179, 48, 32, 0.46667),17px 17px 0 rgba(179, 48, 32, 0.43333),18px 18px 0 rgba(179, 48, 32, 0.4),19px 19px 0 rgba(179, 48, 32, 0.36667),20px 20px 0 rgba(179, 48, 32, 0.33333),21px 21px 0 rgba(179, 48, 32, 0.3),22px 22px 0 rgba(179, 48, 32, 0.26667),23px 23px 0 rgba(179, 48, 32, 0.23333),24px 24px 0 rgba(179, 48, 32, 0.2),25px 25px 0 rgba(179, 48, 32, 0.16667),26px 26px 0 rgba(179, 48, 32, 0.13333),27px 27px 0 rgba(179, 48, 32, 0.1),28px 28px 0 rgba(179, 48, 32, 0.06667),30px 30px 0 rgba(179, 48, 32, 0);
+}
+/* line 8, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-hover.pe-so-tumblr {
+  text-shadow: none;
+}
+/* line 9, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-so-tumblr, .pe-bg.pe-longshadow.pe-hover.pe-so-tumblr:hover {
+  text-shadow: 0px 0px 0 #313d4d,1px 1px 0 #313d4d,2px 2px 0 #313d4d,3px 3px 0 #313d4d,4px 4px 0 #313d4d,5px 5px 0 #313d4d,6px 6px 0 #313d4d,7px 7px 0 #313d4d,8px 8px 0 #313d4d,9px 9px 0 #313d4d,10px 10px 0 #313d4d,11px 11px 0 #313d4d,12px 12px 0 #313d4d,13px 13px 0 #313d4d,14px 14px 0 #313d4d,15px 15px 0 #313d4d,16px 16px 0 #313d4d,17px 17px 0 #313d4d,18px 18px 0 #313d4d,19px 19px 0 #313d4d,20px 20px 0 #313d4d,21px 21px 0 #313d4d,22px 22px 0 #313d4d,23px 23px 0 #313d4d,24px 24px 0 #313d4d,25px 25px 0 #313d4d,26px 26px 0 #313d4d,27px 27px 0 #313d4d,28px 28px 0 #313d4d,1px 1px 0 rgba(49, 61, 77, 0.96667),2px 2px 0 rgba(49, 61, 77, 0.93333),3px 3px 0 rgba(49, 61, 77, 0.9),4px 4px 0 rgba(49, 61, 77, 0.86667),5px 5px 0 rgba(49, 61, 77, 0.83333),6px 6px 0 rgba(49, 61, 77, 0.8),7px 7px 0 rgba(49, 61, 77, 0.76667),8px 8px 0 rgba(49, 61, 77, 0.73333),9px 9px 0 rgba(49, 61, 77, 0.7),10px 10px 0 rgba(49, 61, 77, 0.66667),11px 11px 0 rgba(49, 61, 77, 0.63333),12px 12px 0 rgba(49, 61, 77, 0.6),13px 13px 0 rgba(49, 61, 77, 0.56667),14px 14px 0 rgba(49, 61, 77, 0.53333),15px 15px 0 rgba(49, 61, 77, 0.5),16px 16px 0 rgba(49, 61, 77, 0.46667),17px 17px 0 rgba(49, 61, 77, 0.43333),18px 18px 0 rgba(49, 61, 77, 0.4),19px 19px 0 rgba(49, 61, 77, 0.36667),20px 20px 0 rgba(49, 61, 77, 0.33333),21px 21px 0 rgba(49, 61, 77, 0.3),22px 22px 0 rgba(49, 61, 77, 0.26667),23px 23px 0 rgba(49, 61, 77, 0.23333),24px 24px 0 rgba(49, 61, 77, 0.2),25px 25px 0 rgba(49, 61, 77, 0.16667),26px 26px 0 rgba(49, 61, 77, 0.13333),27px 27px 0 rgba(49, 61, 77, 0.1),28px 28px 0 rgba(49, 61, 77, 0.06667),30px 30px 0 rgba(49, 61, 77, 0);
+}
+/* line 8, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-hover.pe-so-twitter {
+  text-shadow: none;
+}
+/* line 9, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-so-twitter, .pe-bg.pe-longshadow.pe-hover.pe-so-twitter:hover {
+  text-shadow: 0px 0px 0 #268fd1,1px 1px 0 #268fd1,2px 2px 0 #268fd1,3px 3px 0 #268fd1,4px 4px 0 #268fd1,5px 5px 0 #268fd1,6px 6px 0 #268fd1,7px 7px 0 #268fd1,8px 8px 0 #268fd1,9px 9px 0 #268fd1,10px 10px 0 #268fd1,11px 11px 0 #268fd1,12px 12px 0 #268fd1,13px 13px 0 #268fd1,14px 14px 0 #268fd1,15px 15px 0 #268fd1,16px 16px 0 #268fd1,17px 17px 0 #268fd1,18px 18px 0 #268fd1,19px 19px 0 #268fd1,20px 20px 0 #268fd1,21px 21px 0 #268fd1,22px 22px 0 #268fd1,23px 23px 0 #268fd1,24px 24px 0 #268fd1,25px 25px 0 #268fd1,26px 26px 0 #268fd1,27px 27px 0 #268fd1,28px 28px 0 #268fd1,1px 1px 0 rgba(38, 143, 209, 0.96667),2px 2px 0 rgba(38, 143, 209, 0.93333),3px 3px 0 rgba(38, 143, 209, 0.9),4px 4px 0 rgba(38, 143, 209, 0.86667),5px 5px 0 rgba(38, 143, 209, 0.83333),6px 6px 0 rgba(38, 143, 209, 0.8),7px 7px 0 rgba(38, 143, 209, 0.76667),8px 8px 0 rgba(38, 143, 209, 0.73333),9px 9px 0 rgba(38, 143, 209, 0.7),10px 10px 0 rgba(38, 143, 209, 0.66667),11px 11px 0 rgba(38, 143, 209, 0.63333),12px 12px 0 rgba(38, 143, 209, 0.6),13px 13px 0 rgba(38, 143, 209, 0.56667),14px 14px 0 rgba(38, 143, 209, 0.53333),15px 15px 0 rgba(38, 143, 209, 0.5),16px 16px 0 rgba(38, 143, 209, 0.46667),17px 17px 0 rgba(38, 143, 209, 0.43333),18px 18px 0 rgba(38, 143, 209, 0.4),19px 19px 0 rgba(38, 143, 209, 0.36667),20px 20px 0 rgba(38, 143, 209, 0.33333),21px 21px 0 rgba(38, 143, 209, 0.3),22px 22px 0 rgba(38, 143, 209, 0.26667),23px 23px 0 rgba(38, 143, 209, 0.23333),24px 24px 0 rgba(38, 143, 209, 0.2),25px 25px 0 rgba(38, 143, 209, 0.16667),26px 26px 0 rgba(38, 143, 209, 0.13333),27px 27px 0 rgba(38, 143, 209, 0.1),28px 28px 0 rgba(38, 143, 209, 0.06667),30px 30px 0 rgba(38, 143, 209, 0);
+}
+/* line 8, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-hover.pe-so-vimeo {
+  text-shadow: none;
+}
+/* line 9, ../scss/partials/_typography.scss */
+.pe-bg.pe-longshadow.pe-so-vimeo, .pe-bg.pe-longshadow.pe-hover.pe-so-vimeo:hover {
+  text-shadow: 0px 0px 0 #24a2e1,1px 1px 0 #24a2e1,2px 2px 0 #24a2e1,3px 3px 0 #24a2e1,4px 4px 0 #24a2e1,5px 5px 0 #24a2e1,6px 6px 0 #24a2e1,7px 7px 0 #24a2e1,8px 8px 0 #24a2e1,9px 9px 0 #24a2e1,10px 10px 0 #24a2e1,11px 11px 0 #24a2e1,12px 12px 0 #24a2e1,13px 13px 0 #24a2e1,14px 14px 0 #24a2e1,15px 15px 0 #24a2e1,16px 16px 0 #24a2e1,17px 17px 0 #24a2e1,18px 18px 0 #24a2e1,19px 19px 0 #24a2e1,20px 20px 0 #24a2e1,21px 21px 0 #24a2e1,22px 22px 0 #24a2e1,23px 23px 0 #24a2e1,24px 24px 0 #24a2e1,25px 25px 0 #24a2e1,26px 26px 0 #24a2e1,27px 27px 0 #24a2e1,28px 28px 0 #24a2e1,1px 1px 0 rgba(36, 162, 225, 0.96667),2px 2px 0 rgba(36, 162, 225, 0.93333),3px 3px 0 rgba(36, 162, 225, 0.9),4px 4px 0 rgba(36, 162, 225, 0.86667),5px 5px 0 rgba(36, 162, 225, 0.83333),6px 6px 0 rgba(36, 162, 225, 0.8),7px 7px 0 rgba(36, 162, 225, 0.76667),8px 8px 0 rgba(36, 162, 225, 0.73333),9px 9px 0 rgba(36, 162, 225, 0.7),10px 10px 0 rgba(36, 162, 225, 0.66667),11px 11px 0 rgba(36, 162, 225, 0.63333),12px 12px 0 rgba(36, 162, 225, 0.6),13px 13px 0 rgba(36, 162, 225, 0.56667),14px 14px 0 rgba(36, 162, 225, 0.53333),15px 15px 0 rgba(36, 162, 225, 0.5),16px 16px 0 rgba(36, 162, 225, 0.46667),17px 17px 0 rgba(36, 162, 225, 0.43333),18px 18px 0 rgba(36, 162, 225, 0.4),19px 19px 0 rgba(36, 162, 225, 0.36667),20px 20px 0 rgba(36, 162, 225, 0.33333),21px 21px 0 rgba(36, 162, 225, 0.3),22px 22px 0 rgba(36, 162, 225, 0.26667),23px 23px 0 rgba(36, 162, 225, 0.23333),24px 24px 0 rgba(36, 162, 225, 0.2),25px 25px 0 rgba(36, 162, 225, 0.16667),26px 26px 0 rgba(36, 162, 225, 0.13333),27px 27px 0 rgba(36, 162, 225, 0.1),28px 28px 0 rgba(36, 162, 225, 0.06667),30px 30px 0 rgba(36, 162, 225, 0);
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Regular.eot");
+  src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.svg#neosansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pe-icon-social';
+  src: url("../fonts/pe-icon-social.eot?-96eskg");
+  src: url("../fonts/pe-icon-social.eot?#iefix-96eskg") format("embedded-opentype"), url("../fonts/pe-icon-social.woff?-96eskg") format("woff"), url("../fonts/pe-icon-social.ttf?-96eskg") format("truetype"), url("../fonts/pe-icon-social.svg?-96eskg#pe-icon-social") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 34, ../scss/partials/_typography.scss */
+[class^="pe-so-"], [class*=" pe-so-"] {
+  display: inline-block;
+  font-family: 'pe-icon-social';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 46, ../scss/partials/_typography.scss */
+.pe-so-behance:before {
+  content: "\e606";
+}
+
+/* line 50, ../scss/partials/_typography.scss */
+.pe-so-dribbble:before {
+  content: "\e611";
+}
+
+/* line 54, ../scss/partials/_typography.scss */
+.pe-so-facebook:before {
+  content: "\e617";
+}
+
+/* line 59, ../scss/partials/_typography.scss */
+.pe-so-google-plus:before {
+  content: "\e620";
+}
+
+/* line 63, ../scss/partials/_typography.scss */
+.pe-so-tumblr:before {
+  content: "\e64f";
+}
+
+/* line 67, ../scss/partials/_typography.scss */
+.pe-so-twitter:before {
+  content: "\e651";
+}
+
+/* line 71, ../scss/partials/_typography.scss */
+.pe-so-vimeo:before {
+  content: "\e654";
+}
+
+/* line 72, icons/*.png */
+.icons-sprite, .icons-btn-cross, .icons-btn-hamburger, .icons-dots, .icons-logo {
+  background-image: url('../img/icons-s0aa60c7333.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-btn-cross {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-btn-hamburger {
+  background-position: 0 -28px;
+}
+
+/* line 84, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-dots {
+  background-position: 0 -56px;
+}
+
+/* line 84, ../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-logo {
+  background-position: 0 -84px;
+}
+
+/* line 1, ../scss/partials/_header.scss */
+header {
+  background: rgba(255, 255, 255, 0.65);
+  border-bottom: 1px solid #dbdcdd;
+}
+/* line 5, ../scss/partials/_header.scss */
+header .icons-logo {
+  display: block;
+  width: 205px;
+  height: 28px;
+  margin: 21px 0px;
+}
+
+/* line 13, ../scss/partials/_header.scss */
+.btn-menu {
+  float: right;
+  width: 35px;
+  height: 28px;
+  margin-top: 21px;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+/* line 20, ../scss/partials/_header.scss */
+.btn-menu:hover {
+  cursor: pointer;
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 26, ../scss/partials/_header.scss */
+nav li a:hover, .activeLink {
+  color: #ff7e00;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 32, ../scss/partials/_header.scss */
+nav li {
+  display: inline-block;
+  padding: 28px 0px;
+  text-align: center;
+}
+/* line 37, ../scss/partials/_header.scss */
+nav li a {
+  padding: 23px 7px;
+  font-size: 1em;
+  color: #444444;
+  text-transform: uppercase;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+/* line 49, ../scss/partials/_header.scss */
+nav li span {
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+/* line 52, ../scss/partials/_header.scss */
+nav li span:hover {
+  color: #ff7e00;
+}
+
+/* line 58, ../scss/partials/_header.scss */
+.social {
+  padding-top: 21px;
+}
+
+/* line 62, ../scss/partials/_header.scss */
+.headerIcon {
+  font-size: 20px;
+  color: #9d9b9b;
+}
+
+/* line 67, ../scss/partials/_header.scss */
+.activeLink {
+  border-bottom: 3px solid #ff7e00;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 74, ../scss/partials/_header.scss */
+  .sm-menu li {
+    border-top: 1px solid #dbdcdd;
+  }
+  /* line 75, ../scss/partials/_header.scss */
+  .sm-menu li a {
+    font-size: 0.8em;
+  }
+
+  /* line 82, ../scss/partials/_header.scss */
+  .sm-menu .activeLink {
+    border-bottom: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 89, ../scss/partials/_header.scss */
+  header ul li:nth-child(3) {
+    margin: 0px 0px 0px 30px;
+  }
+
+  /* line 93, ../scss/partials/_header.scss */
+  header ul li:nth-child(6) {
+    text-align: right;
+    margin-left: -30px;
+  }
+}
+/* line 1, ../scss/partials/_content.scss */
+.titlePage {
+  margin: 30px 0px;
+  padding: 1px 0px;
+  border-top: 1px dotted #c2c2c4;
+  border-bottom: 1px dotted #c2c2c4;
+}
+/* line 6, ../scss/partials/_content.scss */
+.titlePage h2 {
+  padding: 12px 0px;
+  font-size: 18px;
+  border-top: 1px dotted #c2c2c4;
+  border-bottom: 1px dotted #c2c2c4;
+  text-transform: uppercase;
+}
+
+/* line 14, ../scss/partials/_content.scss */
+p {
+  line-height: 1.4em;
+}
+
+/* line 18, ../scss/partials/_content.scss */
+.content {
+  padding-bottom: 80px;
+}
+@media screen and (min-width: 992px) {
+  /* line 18, ../scss/partials/_content.scss */
+  .content {
+    padding-bottom: 50px;
+  }
+}
+
+/* line 1, ../scss/partials/_footer.scss */
+footer {
+  background: #444444;
+  padding: 40px 0px;
+}
+
+/* line 6, ../scss/partials/_footer.scss */
+.icons-dots {
+  width: 29px;
+  height: 28px;
+  margin: 0px auto;
+}
+
+/* line 13, ../scss/partials/_footer.scss */
+footer nav ul {
+  text-align: center;
+  margin: 10px 0px 5px 0px;
+}
+/* line 18, ../scss/partials/_footer.scss */
+footer nav li {
+  display: inline-block;
+  padding: 10px 30px;
+}
+@media only screen and (max-width: 992px) {
+  /* line 18, ../scss/partials/_footer.scss */
+  footer nav li {
+    padding: 10px;
+  }
+}
+/* line 27, ../scss/partials/_footer.scss */
+footer nav a {
+  color: #ff7e00;
+  font-size: 14px;
+}
+
+/* line 33, ../scss/partials/_footer.scss */
+footer p {
+  text-align: center;
+  font-size: 12px;
+  color: #9d9b9b;
+}
+@media only screen and (max-width: 768px) {
+  /* line 33, ../scss/partials/_footer.scss */
+  footer p {
+    font-size: 15px;
+  }
+}
+
+/* line 43, ../scss/partials/_footer.scss */
+.footerIcon li {
+  padding: 10px;
+}
+/* line 46, ../scss/partials/_footer.scss */
+.footerIcon li span {
+  color: #fff;
+  font-size: 28px;
+}
+@media only screen and (max-width: 768px) {
+  /* line 46, ../scss/partials/_footer.scss */
+  .footerIcon li span {
+    font-size: 32px;
+  }
+}
+
+/* line 7, ../scss/portfolio.scss */
+.siteInfo {
+  padding-bottom: 25px;
+}
+
+/* line 11, ../scss/portfolio.scss */
+.siteInfo img {
+  width: 100%;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+/* line 16, ../scss/portfolio.scss */
+.siteInfo img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+/* line 20, ../scss/portfolio.scss */
+.siteInfo img:hover + div h3 a {
+  text-decoration: underline;
+}
+
+/* line 26, ../scss/portfolio.scss */
+.siteInfo div {
+  padding: 20px;
+  background: #fff;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-box-shadow: 0px 2px 3px #9d9b9b;
+  -webkit-box-shadow: 0px 2px 3px #9d9b9b;
+  box-shadow: 0px 2px 3px #9d9b9b;
+}
+
+/* line 33, ../scss/portfolio.scss */
+h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #444444;
+}
+
+/* line 39, ../scss/portfolio.scss */
+h3 {
+  padding: 0.5em 0em;
+  border-top: none;
+  border-bottom: 1px dotted #c2c2c4;
+}
+
+/* line 44, ../scss/portfolio.scss */
+h3 a {
+  font-size: 1em;
+  color: #ff7e00;
+}
+/* line 48, ../scss/portfolio.scss */
+h3 a:hover {
+  color: #ff7e00;
+}
+
+/* line 53, ../scss/portfolio.scss */
+h4 {
+  padding: 0.8em 0em 0em 0em;
+  font-size: 0.85em;
+  color: #9d9b9b;
+}

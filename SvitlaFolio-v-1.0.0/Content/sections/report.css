@@ -1,0 +1,17 @@
+﻿img {
+  display: block;
+  width: 200px;
+  margin: 50px auto;
+  -moz-box-shadow: 3px 2px 3px #ff7e00;
+  -webkit-box-shadow: 3px 2px 3px #ff7e00;
+  box-shadow: 3px 2px 3px #ff7e00;
+  -moz-border-radius: 50% / 50%;
+  -webkit-border-radius: 50% 50%;
+  border-radius: 50% / 50%;
+}
+
+h2 {
+  margin: 50px 0px;
+  font-size: 20px;
+  text-align: center;
+}

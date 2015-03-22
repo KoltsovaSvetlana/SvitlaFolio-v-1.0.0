@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "About Koltsova Svetlana | Front End Developer";
+}
+
+@section Styles {
+    <link href="@Url.Content("~/Content/sections/about.css?v=1.0")" rel="stylesheet" type="text/css" />
+}
+
+<div class="container content">
+    <div class="titlePage">
+        <h2>About</h2>
+    </div>
+    <h1>Who We Are? Meet Our Team!</h1>
+    <h2 class="subtitle">We listen, we discuss, we advise and develop. We love to learn and use the latest technologies.</h2>
+    <div class="row">
+        <div class="col-md-4 col-xs-12 employeeInfo">
+            <img src="/Content/img/foto1.jpg" alt="CEO foto" />
+            <div class="personData">
+                <h2>ALex G</h2>
+                <h3>CEO</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet
+                    phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-12 employeeInfo">
+            <img src="/Content/img/foto2.png" alt="Project Manager foto" />
+            <div class="personData">
+                <h2>John Doe</h2>
+                <h3>Project Manager</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet
+                    phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-12 employeeInfo">
+            <img src="/Content/img/foto3.png" alt="Developer foto" />
+            <div class="personData">
+                <h2>Anna White</h2>
+                <h3>Developer</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet
+                    phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.
+                </p>
+            </div>
+        </div>
+        <div class="divider hidden-xs"></div>
+    </div><!-- end .row -->
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12 technologyInfo">
+            <img src="/Content/img/html.png" alt="html" />
+            <h2>HTML</h2>
+            <p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 technologyInfo">
+            <img src="/Content/img/css.png" alt="css" />
+            <h2>CSS</h2>
+            <p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 technologyInfo">
+            <img src="/Content/img/woocommerce.png" alt="woocommerce" />
+            <h2>Woocommerce</h2>
+            <p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 technologyInfo">
+            <img src="/Content/img/fun.png" alt="fun" />
+            <h2>Fun</h2>
+            <p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis.</p>
+        </div>
+    </div><!-- end .row -->
+</div><!-- .content -->
+
+@section Scripts {
+    <script>
+        document.querySelector("header ul li:nth-child(3) a").className = "activeLink";
+    </script>
+}

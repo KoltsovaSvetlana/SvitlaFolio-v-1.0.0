@@ -1,0 +1,15 @@
+using ActionMailer.Net
+@model SvitlaFolio_v_1._0._0.Models.SendEmailModel
+@{
+    Layout = null;
+}
+
+<title>SendEmail.html</title>
+
+<div>
+    Hello @Model.FullName,
+
+    @Model.Message
+
+    Thanks & Regards regards, @Model.Email
+</div>

@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="language" content="english" />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta name="author" content="Koltsova Svetlana" />
+        <meta name="copyright" content="Koltsova Svetlana - 2015" />
+        <meta name="description" content="Front End Developer with a passion for designing beautiful and functional user experiences." />
+        <meta name="keywords" content="online portfolio, online portfolio site, front end developer" />
+        <title>@ViewBag.Title</title>
+        <link href="~/favicon.ico?v=1.0" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/lib/bootstrap.min.css")
+        @Styles.Render("~/Content/general/general.css")
+        @RenderSection("Styles", false)
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        @Html.ActionLink("SvitlaFolio", "Index", "Home", null, new { @class = "icons-logo" })
+                    </div>
+                    <div class="hidden-lg hidden-md col-sm-offset-5 col-xs-offset-4 col-sm-1 col-xs-2">
+                        <span class="btn-menu icons-btn-hamburger"></span>
+                    </div>
+                    <nav class="hidden-xs hidden-sm">
+                        <ul>
+                            <li class="col-md-offset-3 col-xs-12 col-md-1">@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li class="col-xs-12 col-md-1">@Html.ActionLink("Portfolio", "Portfolio", "Home")</li>
+                            <li class="col-xs-12 col-md-1">@Html.ActionLink("About", "About", "Home")</li>
+                            <li class="col-xs-12 col-md-1">@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            <li class="hidden-sm hidden-xs col-md-1 social">
+                                <a href="https://www.facebook.com/PeopleSmartcom" target="_blank">
+                                    <span class="pe-so-facebook headerIcon"></span>
+                                </a>
+                            </li>
+                            <li class="hidden-sm hidden-xs col-md-1 social">
+                                <a href="https://twitter.com/PeopleSmartcom" target="_blank">
+                                    <span class="pe-so-twitter headerIcon"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div>
+            @RenderSection("featured", required: false)
+            @RenderBody()
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="icons-dots"></div>
+                </div>
+                <div class="row">
+                    <nav class="col-md-offset-2 col-md-8 col-xs-12">
+                        <ul>
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Portfolio", "Portfolio", "Home")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                    </nav>
+                    <div class="col-md-offset-1 col-md-10 col-xs-12">
+                        <p>
+                            Creative digital agency for sleek and sophisticated solutions for mobile, websites and software
+                            designs, lead by passionate and uber progressive team that lives and breathes design. Creative
+                            digital agency for sleek and sophisticated solutions for mobile, websites and software designs.
+                        </p>
+                    </div>
+                    <nav class="col-md-offset-2 col-md-8 col-xs-12">
+                        <ul class="footerIcon">
+                            <li>
+                                <a href="https://www.facebook.com/PeopleSmartcom" target="_blank">
+                                    <span class="pe-so-facebook"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/PeopleSmartcom" target="_blank">
+                                    <span class="pe-so-twitter"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <span class="pe-so-vimeo"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <span class="pe-so-tumblr"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <span class="pe-so-google-plus"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <span class="pe-so-behance"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <span class="pe-so-dribbble"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-12 col-xs-12">
+                    <p>
+                        Copyright © 2015 Svitla Systems. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("/Scripts/modernizr-2.6.2.js")
+        @Scripts.Render("/Scripts/Js/script.js")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

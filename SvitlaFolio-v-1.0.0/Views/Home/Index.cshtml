@@ -1,0 +1,106 @@
+﻿@{
+    ViewBag.Title = "Home Koltsova Svetlana | Front End Developer";
+}
+
+@section Styles {
+    <link href="@Url.Content("~/Content/sections/index.css?v=1.0")" rel="stylesheet" type="text/css" />
+}
+
+<div class="container">
+    <div class="row titlePage">
+        <h2>Home</h2>
+    </div>
+    <div id="section" class="row">
+        <div class="col-md-12 col-xs-12">
+            <div id="face" class="face">
+                <a href='@Url.Action("About", "Home")'>
+                    <div id="designer" class="designer">
+                        <div id="designer-desc" class="description">
+                            <h1>designer</h1>
+                            <p>UI/UX Designer with a passion for designing beautiful and functional user experiences. <span class="more">Minimalist who believes that less is more.</span></p>
+                        </div>
+                    </div>
+                </a>
+                <a href='@Url.Action("Portfolio", "Home")'>
+                    <div id="coder" class="coder">
+                        <div id="coder-desc" class="description">
+                            <h1>&lt;coder&gt;</h1>
+                            <p>Front End Developer who focuses on writing clean, elegant and efficient code. <span class="more">Love HTML, CSS, JavaScript and a touch of jQuery.</span></p>
+                        </div>
+                    </div>
+                </a>
+                <img id="face-img" class="face-img" src="~/Content/img/designer-coder.jpg" alt="adham dannaway ui designer">
+                <div id="designer-img" class="designer-img"></div>
+                <div id="coder-img" class="coder-img"></div>
+                <div id="designer-bg" class="designer-bg"></div>
+                <div id="coder-bg" class="coder-bg"></div>
+            </div>
+        </div>
+    </div><!-- end .row -->
+    <div class="row experience">
+        <div class="col-md-3 col-sm-4 col-xs-12">
+            <h2>Part Coder</h2>
+            <ul>
+                <li>Front End Development</li>
+                <li>HTML</li>
+                <li>CSS / SASS / LESS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+            </ul>
+        </div>
+        <div class="col-md-6 col-sm-4 col-xs-12 alignC">
+            <img id="img-0" class="preload major" src="~/Content/img/pie-chart.png" alt="part UI designer, part developer">
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+            <h2>Part Designer</h2>
+            <ul>
+                <li>User Interface Design</li>
+                <li>User Experience Design</li>
+                <li>Interaction Design</li>
+                <li>Website Design</li>
+                <li>Branding / Logo Design</li>
+            </ul>
+        </div>
+    </div><!-- end .row -->
+    <div id="bar-chart" class="row">
+        <div class="col-sm-12 hidden-xs">
+            <h2 class="alignR">My technical skills</h2>
+            <ul class="barChart">
+                <li class="axis">
+                    <div class="label">Jedi</div>
+                    <div class="label">Ninja</div>
+                    <div class="label">Geek</div>
+                    <div class="label">Newbie</div>
+                </li>
+                <li id="col1" class="col1 p-95">
+                    <div class="percent">95<span>%</span></div>
+                    <div class="skill">HTML/CSS</div>
+                </li>
+                <li id="col2" class="col2  p-90">
+                    <div class="percent">90<span>%</span></div>
+                    <div class="skill">JavaScript</div>
+                </li>
+                <li id="col3" class="col3 p-80">
+                    <div class="percent">80<span>%</span></div>
+                    <div class="skill">Photoshop</div>
+                </li>
+                <li id="col4" class="col4 p-75">
+                    <div class="percent">75<span>%</span></div>
+                    <div class="skill">jQuery</div>
+                </li>
+                <li id="col5" class="col5 p-40">
+                    <div class="percent">40<span>%</span></div>
+                    <div class="skill">AngularJS</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.querySelector("header ul li:nth-child(1) a").className = "activeLink";
+    </script>
+    <script src="@Url.Content("~/Scripts/Js/waypoint.js")"></script>
+    <script src="@Url.Content("~/Scripts/Js/animation.js")"></script>
+}
